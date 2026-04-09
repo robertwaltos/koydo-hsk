@@ -1,0 +1,10 @@
+{
+  "name": "Koydo HSK",
+  "short_name": "HSK Prep",
+  "description": "HSK Chinese Proficiency Test preparation — free practice questions and AI analytics.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#B91C1C",
+  "icons": [{"src":"/favicon.svg","sizes":"any","type":"image/svg+xml"}]
+}
