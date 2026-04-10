@@ -1,0 +1,15 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/api/hsk/dashboard/route": "app/api/hsk/dashboard/route.js",
+  "/api/hsk/questions/route": "app/api/hsk/questions/route.js",
+  "/api/hsk/subscription-status/route": "app/api/hsk/subscription-status/route.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/learn/page": "app/learn/page.js",
+  "/pricing/page": "app/pricing/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/page": "app/page.js",
+  "/terms/page": "app/terms/page.js",
+  "/opengraph-image/route": "app/opengraph-image/route.js"
+}

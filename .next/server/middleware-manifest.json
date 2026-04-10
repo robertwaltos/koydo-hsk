@@ -1,0 +1,50 @@
+{
+  "version": 3,
+  "middleware": {},
+  "functions": {
+    "/opengraph-image/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "required-server-files.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/opengraph-image/route.js"
+      ],
+      "entrypoint": "server/app/opengraph-image/route.js",
+      "name": "app/opengraph-image/route",
+      "page": "/opengraph-image/route",
+      "matchers": [
+        {
+          "regexp": "^/opengraph\\-image$",
+          "originalSource": "/opengraph-image"
+        }
+      ],
+      "wasm": [
+        {
+          "name": "wasm_a5d4d0ae9bf0a18b666f06b1864089d3fe4057cc",
+          "filePath": "server/edge-chunks/wasm_a5d4d0ae9bf0a18b666f06b1864089d3fe4057cc.wasm"
+        },
+        {
+          "name": "wasm_77d9faebf7af9e421806970ce10a58e9d83116d7",
+          "filePath": "server/edge-chunks/wasm_77d9faebf7af9e421806970ce10a58e9d83116d7.wasm"
+        }
+      ],
+      "assets": [
+        {
+          "name": "Geist-Regular.4548d4b15b6b765e.ttf",
+          "filePath": "server/edge-chunks/asset_Geist-Regular.4548d4b15b6b765e.ttf"
+        }
+      ],
+      "env": {
+        "__NEXT_BUILD_ID": "dmw1_oDi65WoFv7WdK4y3",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "D5Vo618oqSMfZr7JED+d2ziycVV1FWHeIDww89UcmkU=",
+        "__NEXT_PREVIEW_MODE_ID": "e557ad55857e13c0823312598d2868bb",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "8106cbf597d347c9473dc680e822a215a26739cde6f168da24ea786ea0827dc6",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "8d7eb21b3d54f6562c3500627d2c43ff1527f7156274bad26fb649a7ee867f58"
+      }
+    }
+  },
+  "sortedMiddleware": []
+}

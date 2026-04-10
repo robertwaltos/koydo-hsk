@@ -1,0 +1,1 @@
+globalThis.__RSC_MANIFEST=(globalThis.__RSC_MANIFEST||{});globalThis.__RSC_MANIFEST["/api/hsk/subscription-status/route"]={"moduleLoading":{"prefix":"/_next/"},"ssrModuleMapping":{},"edgeSSRModuleMapping":{},"clientModules":{},"entryCSSFiles":{"D:\\Koydo\\hsk\\src\\app\\api\\hsk\\subscription-status\\route":[]},"rscModuleMapping":{},"edgeRscModuleMapping":{}};

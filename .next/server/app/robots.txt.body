@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /account/
+
+Host: https://hsk.koydo.app
+Sitemap: https://hsk.koydo.app/sitemap.xml
